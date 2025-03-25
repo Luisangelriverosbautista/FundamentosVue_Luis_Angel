@@ -32,11 +32,9 @@ td {
     /* Permite saltos de línea con \n */
     padding: 8px;
     text-align: center;
-    border: 1px solid black;
+    
 }
-table{
-    border: none;
-}
+
 td{
     border: none;
 }

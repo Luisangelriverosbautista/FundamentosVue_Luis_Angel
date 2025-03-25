@@ -16,12 +16,25 @@ export default{
 <template>
 <div class="container">
     <h3 class="mt-4 ">lista de alumnos</h3>
-    <ul>
-        <li v-for=" alumno in alumnos" :key="alumno.id">
-            <strong>{{ alumno.nombre_completo }} </strong>-
-            <strong>{{ alumno.gusto }} </strong>
-        </li>
-    </ul>
+    <table class="table ">
+            
+            <thead>
+                <tr class="table-primary">
+                    <th scope="col">id</th>
+                    <th scope="col">nombre_completo</th>
+                    <th scope="col">gusto</th>
+                </tr>
+            </thead>
+            <tbody class=" table-success " v-for=" alumno in alumnos" :key="alumno.id">
+                <tr >
+                    <td>{{ alumno.id }}</td>
+                    <td>{{ alumno.nombre_completo }}</td>
+                    <td>{{ alumno.gusto }}</td>
+                    
+                
+                </tr>
+            </tbody>
+        </table>
 </div>
 </template>
 <style>
