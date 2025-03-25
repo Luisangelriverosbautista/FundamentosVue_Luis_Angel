@@ -1,11 +1,9 @@
 <script setup>
-import ejerprops from './components/Props/ejerprops.vue';
-import padre from './components/Props/padre.vue';
-
+import eventos from './components/eventos/eventos.vue';
  </script>
 
 <template>
- <padre nombre="luis angel"/>
+ <eventos/>
 </template>
 
 <style scoped>
