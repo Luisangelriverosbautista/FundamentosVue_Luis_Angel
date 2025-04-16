@@ -1,6 +1,6 @@
 <script setup>
 import principal from './components/pagina_principal.vue'
-import principalcom from './components/pagina utilizando componentes/principalcom.vue'
+import principalcom from './components/pagina_utilizando_componentes/principalcom.vue'
 </script>
 
 <template>
