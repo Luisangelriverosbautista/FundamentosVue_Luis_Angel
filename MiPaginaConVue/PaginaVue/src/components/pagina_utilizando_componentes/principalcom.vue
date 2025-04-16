@@ -6,19 +6,19 @@ import Cards from './cards.vue';
 
 </script>
 
-<template >
+<template>
   <div class="container">
-  <navs/>
-        <!-- empieza carrucel -->
-        <carrusel/>
-        <!-- termina carrucel -->
-        
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <Cards/>
+    <navs />
+    <!-- empieza carrucel -->
+    <carrusel />
+    <!-- termina carrucel -->
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <Cards />
 
 </template>
 
