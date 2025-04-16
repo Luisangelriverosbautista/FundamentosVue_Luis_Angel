@@ -22,9 +22,9 @@ export default {
     <div class="container">
 
 <!-- Álbum 1: Izquierda -->
-<div class="row justify-content-start">
+<div class="row justify-content-start ">
     <div class="col-md-6">
-        <div class="card mt-5">
+        <div class="card ">
             <div class="card-header text-center" style="background: linear-gradient(to right, #000000, #1fff0ff5);">
                 <h5 style="color: white;">Twenty One Pilots</h5>
             </div>
